@@ -35,6 +35,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Firebase Meetup'),
+        centerTitle: true,
       ),
       body: ListView(
         children: <Widget>[
@@ -51,7 +52,7 @@ class HomePage extends StatelessWidget {
           ),
           const Header("What we'll be doing"),
           const Paragraph(
-            'Join us for a day full of Firebase Workshops and Pizza!',
+            'Join us for a day full of Firebase Workshops and sushi!',
           ),
         ],
       ),
